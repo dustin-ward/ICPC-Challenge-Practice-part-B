@@ -5,6 +5,12 @@ This is a repository containing my solutions to the ICPC Challenge Practice part
 
 The problem was to find the largest possible independent set in a given graph. (Independent meaning the set cannot contain two vertices that are directly connected by an edge in the graph). The score you receive is based on the size of the set you find.
 
+## Compiling
+
+I have been compiling the programs with the following command:
+
+`g++ -std=c++11 -o Bv1 Bv1.cpp -Wall`
+
 ## Solution 1
 
 My approach in this version was to simply include node 1 in my set, then mark all its neighbors as unavailable. I would then scan for the next unmarked node, and repeat the process. The end result would be a maximal independent set that includes node 1. The scores I acheived with this program are as follows:
