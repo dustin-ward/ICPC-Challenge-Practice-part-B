@@ -29,7 +29,7 @@ The problem with my initial attempt was that node 1 HAD to be included in the se
 
 I've also added an iteration feature to this one, so you can control the number of times a result is generated. I usually run the smaller sets around 1000 times. This really didnt seem to improve my initial scores. Finding the correct starting node is really hard, and even then, there is probably a better way to generate the rest of the set. Here are the scores I got:
 
-?B1: 2488
+>B1: 2488
 
 >B2: 31835
 
